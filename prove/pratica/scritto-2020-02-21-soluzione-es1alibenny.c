@@ -7,7 +7,7 @@
  * 
  * Hint: considerate l'uso della funzione realpath
  * 
- * link testo https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2020-02-21-testo.pdf
+ * link testo https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2020-02-21-testo.pdf
 */
 #include <stdio.h>
 #include <stdlib.h>

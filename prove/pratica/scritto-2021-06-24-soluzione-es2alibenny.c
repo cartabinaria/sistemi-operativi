@@ -1,4 +1,4 @@
-/* link testo https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2021-06-24-testo.pdf */
+/* link testo https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2021-06-24-testo.pdf */
 
 /** Esercizio 2
  * completare dircat. 
