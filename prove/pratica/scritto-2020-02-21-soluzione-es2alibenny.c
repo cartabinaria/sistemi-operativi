@@ -3,7 +3,7 @@
  * il path completo di ogni file 
  * (mostrando al posto dei link simbolici il path completo dei file puntati).
  * 
- * link testo https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2020-02-21-testo.pdf
+ * link testo https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2020-02-21-testo.pdf
  */
 
 #include <stdio.h>

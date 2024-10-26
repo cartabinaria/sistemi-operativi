@@ -8,7 +8,7 @@
  * tx 22255 sigmsg
  * [posto che rx sia in esecuzione con pid 22255, rx deve stampare sigmsg]
  * 
- * testo esame https://github.com/csunibo/sistemi-operativi/blob/main/prove/pratica/scritto-2022-06-22-testo.pdf
+ * testo esame https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2022-06-22-testo.pdf
  */
 
 #include <stdio.h>

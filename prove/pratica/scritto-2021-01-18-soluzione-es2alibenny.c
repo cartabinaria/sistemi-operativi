@@ -4,7 +4,7 @@
  * e sostituire ogni link simbolico che punta ad un file regolare con la copia 
  * del file puntato.
  * 
- * link testo: https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2021-01-18-testo.pdf
+ * link testo: https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2021-01-18-testo.pdf
  */
 #include <stdio.h>
 #include <stdlib.h>

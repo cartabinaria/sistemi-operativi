@@ -1,4 +1,4 @@
-[🔗link testo d'esame](https://csunibo.github.io/sistemi-operativi/prove/scritto/scritto-2022-07-20-testo.pdf)
+[🔗link testo d'esame](https://dynamik.vercel.app/sistemi-operativi/prove/scritto/scritto-2022-07-20-testo.pdf)
 
 - [Esercizio c1](#esercizio-c1)
 - [Esercizio c2](#esercizio-c2)

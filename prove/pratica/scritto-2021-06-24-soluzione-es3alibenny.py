@@ -1,4 +1,4 @@
-# link testo https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2021-06-24-testo.pdf
+# link testo https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2021-06-24-testo.pdf
 
 """	Esercizio 3
 Scrivere uno script o un programma python che corregga l'indentazione di tutti i file .c e .h presenti

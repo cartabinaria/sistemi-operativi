@@ -3,7 +3,7 @@
  * Il programma deve cercare tutti i link simbolici presenti nella directory 
  * e trasformare ogni link simbolico in uno equivalente al pathname assoluto e non relativo.
  *  
- * link testo: https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2021-01-18-testo.pdf
+ * link testo: https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2021-01-18-testo.pdf
 */
 #include <stdlib.h>
 #include <stdio.h>

@@ -1,4 +1,4 @@
-[🔗link testo esame](https://csunibo.github.io/sistemi-operativi/prove/scritto/scritto-2017-05-29-testo.pdf)
+[🔗link testo esame](https://dynamik.vercel.app/sistemi-operativi/prove/scritto/scritto-2017-05-29-testo.pdf)
 
 - [Esercizio c1](#esercizio-c1)
 		- [Soluzione](#soluzione)

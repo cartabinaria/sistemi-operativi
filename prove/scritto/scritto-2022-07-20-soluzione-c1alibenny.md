@@ -1,4 +1,4 @@
-[🔗link testo d'esame](https://csunibo.github.io/sistemi-operativi/prove/scritto/scritto-2022-07-20-testo.pdf)
+[🔗link testo d'esame](https://dynamik.vercel.app/sistemi-operativi/prove/scritto/scritto-2022-07-20-testo.pdf)
 
 # Esercizio c1
 In un porto con una sola banchina utilizzabile occorre caricare cereali sulle navi. I camion portano i cereali al porto. Una sola nave alla volta può essere attraccata al molo, un solo camion alla volta scarica i cereali nella nave.

@@ -1,7 +1,7 @@
 /**
  * @file 2022-09-07
  * @author Alice Benatti (alice17bee@gmail.com)
- * @brief Prova pratica https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2022-09-07-testo.pdf
+ * @brief Prova pratica https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2022-09-07-testo.pdf
  * @version 0.1
  * @date 2023-01-25
  * 

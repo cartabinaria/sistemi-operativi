@@ -1,4 +1,4 @@
-//https://github.com/csunibo/sistemi-operativi/blob/main/prove/scritto/scritto-2022-07-20-testo.pdf
+// https://dynamik.vercel.app/sistemi-operativi/prove/scritto/scritto-2022-07-20-testo.pdf
 //esercizio c1:
 /*In un porto con una sola banchina utilizzabile occorre caricare cereali sulle navi. I camion portano i cereali al porto. Una sola nave alla volta può essere attraccata al molo, un solo camion alla volta scarica i cereali nella nave.
 Il codice eseguito da ogni nave è:

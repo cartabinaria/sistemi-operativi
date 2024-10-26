@@ -1,5 +1,5 @@
 [link testo](
-	https://csunibo.github.io/sistemi-operativi/prove/pratica/scritto-2021-01-18-testo.pdf
+	https://dynamik.vercel.app/sistemi-operativi/prove/pratica/scritto-2021-01-18-testo.pdf
 )
 
 - [Esercizio 0](#esercizio-0)
