@@ -1,0 +1,99 @@
+Soluzioni Esame 10-09-2024
+
+Al momento in cui trascrivo le soluzioni date dal prof, manca ancora il testo dell'esame nella lista del prof.
+(Queste soluzioni sono prese da una foto alla correzione fatta dal prof immediatamente dopo l'esame)
+
+
+#ES C1
+
+p.e. void addfirst(int val):
+	if wl>0 and wb>0:
+		valf = val
+		oklast.pop().signal()
+		okboth.signal()
+	else:
+		wf++
+		okfirst.wait()
+		wf--
+		valf = val
+		
+p.e. void addlast(int val):
+	if wf>0 and wb>0:
+		vall = val
+		okfirst.signal()
+		okboth.signal()
+	else:
+		wl++
+		c = new condition()
+		oklast.push(c)
+		c.wait()
+		wl--
+		vall = val
+
+p.e. int getboth(void):
+	if wf>0 and wl>0:
+		okfirst.signal()
+		oklast.pop().signal()
+	else:
+		wb++
+		okboth.wait()
+		wb--
+	return valf+vall
+	
+#ES C2
+
+void altsend(msg_t msg, pid_t dest):
+	asend(<getpid(), msg>, dest)
+	
+db
+int rcount = 0
+msg_t altrecv(pid_t sender):
+	rcount++
+	asend(<getpid(), TAG>, getpid())
+	while True:
+		<s,m> = arecv(ANY)
+		if s==getpid() and m==TAG:
+			break
+		db.add(s,m)
+	if rcount % 2:
+		while (m = db.getfirst(sender)) != None:
+			<s,m> = arecv(ANY)
+			db.add(s,m)
+	else:
+		while (m = db.getlast(sender)) != None:
+			<s,m> = arev(ANY)
+			db.add(s,m)
+	return m
+
+#ES G1
+
+	10		10
+P1	0,8,8	0,5,5
+P2	0,5,5	0,8,8
+P3	0,5,5	0,5,5
+p1 richiede 4,5
+	6		5
+P1	4,8,4	5,5,0
+P2	0,5,5	0,8,8
+P3	0,5,5	0,5,5
+p3 richiede 3,4
+	3		1
+P1	4,8,4	5,5,0
+P2	0,5,5	0,8,8
+P3	3,5,2	4,5,1
+p3 termina
+	6		5
+P1	4,8,4	5,5,0
+P2	0,5,5	0,8,8
+p2 chiede 3,4 ===> sospesa
+##		3		1
+##P1	4,8,4	5,5,0
+##P2	3,5,2	4,8,4
+p1 restituisce 0,3
+	6		8
+P1	4,8,4	2,5,3
+P2	0,5,5	0,8,8
+p2 chiede 3,4
+	3		4
+P1	4,8,4	2,5,3
+P2	3,5,2	4,8,4
